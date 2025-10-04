@@ -4,5 +4,14 @@
         "SKILLS": "Skills",
         "PORTFOLIO": "Portfolio",
         "CONTACT": "Contact"
+    },
+    "index": {
+        "NAME": "Hi! I'm Claudia Bonilla",
+        "OFICE": "Graphic Designer and Developer",
+        "PRESENTATION": "I create visual experiences that tell stories. Curious, creative, and fearless in facing digital challenges.",
+        "BUTTONS": {
+            "PROJECTS": "View Projects",
+            "CV": "Download CV"
+        }
     }
 }

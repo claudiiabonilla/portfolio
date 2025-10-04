@@ -1,1 +1,18 @@
-<p>index works!</p>
+<section>
+    <article #article1>
+        <h1>CLAU</h1>
+    </article>
+    <article #article2>
+        <h2>{{ 'index.NAME' | translate }}</h2>
+        <h3>{{ 'index.OFICE' | translate }}</h3>
+        <p>{{ 'index.PRESENTATION' | translate }}</p>
+        <div>
+            <a routerLink="/portfolio"><button>{{ 'index.BUTTONS.PROJECTS' | translate }}</button></a>
+            <a href="assets/ClaudiaBonillaCosta2025.pdf" download><button class="cv">{{ 'index.BUTTONS.CV' | translate }}</button></a>
+        </div>
+    </article>
+    <canvas #canvas class="canvas"></canvas>
+    <button class="animate-btn" (click)="startAnimation()">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-240 240-480l56-56 144 144v-368h80v368l144-144 56 56-240 240Z"/></svg>
+    </button>
+</section>
