@@ -1,1 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(styles/color.scss);
+@font-face 
+{
+  font-family: 'Dan';
+  src: url(assets/fonts/Dan.otf) format('opentype');
+}
+@font-face 
+{
+  font-family: 'Carlson';
+  src: url(assets/fonts/carlson-script.ttf) format('truetype');
+}
+@font-face 
+{
+  font-family: 'Montserrat';
+  src: url(assets/fonts/MONTSERRAT-BOLD.TTF) format('truetype');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+body {
+  background-color: var(--color-1);
+  color: var(--color-blue);
+  width: 100vw;
+  min-height: 100vh;
+  font-family: Montserrat;
+
+  a, h1{
+    color: var(--color-blue);
+  }
+
+  svg{
+    fill: var(--color-blue);
+  }
+}
+
+body.dark-mode{
+  background-color: var(--color-blue);
+  color: var(--color-purple);
+
+  a, button{
+    color: var(--color-1);
+  }
+
+  h1{
+    color: var(--color-purple);
+  }
+
+  svg{
+    fill: var(--color-1);
+  }
+}
