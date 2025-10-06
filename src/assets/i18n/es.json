@@ -14,6 +14,21 @@
             "CV": "Descargar CV"
         }
     },
+    "about": {
+        "PRESENTATION": {
+            "NAME": "Soy Claudia Bonilla",
+            "DESC": {
+                "1": "Diseñadora gráfica y desarrolladora web combinando creatividad y tecnología para dar vida a proyectos visuales únicos.",
+                "2": "Apasionada por el dibujo y la fotografía, me encanta explorar nuevas formas de expresión visual que conecten con las personas.",
+                "3": "Disfruto transformando ideas en diseños funcionales y colaborando en proyectos que inspiran y generan impacto."
+            }
+        },
+        "CARD": {
+            "1": "Claudia mostró una actitud profesional y colaborativa ejemplar. Trabajó codo a codo con sus compañeros, formuló preguntas inteligentes y pertinentes, y aprendió de manera muy rápida.",
+            "2": "Claudia combina talento, atención al detalle, creatividad y rapidez de aprendizaje, cualidades que la convierten en una candidata excepcional para cualquier proyecto frontend con enfoque en diseño y experiencia de usuario.",
+            "EMP": "Alten Spain"
+        }
+    },
     "skills": {
         "TITLE": "Habilidades y programas",
         "1": "Maqueto catálogos, revistas y materiales editoriales con estructuras visuales limpias y profesionales.",
