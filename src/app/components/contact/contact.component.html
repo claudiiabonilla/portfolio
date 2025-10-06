@@ -1,1 +1,32 @@
-<p>contact works!</p>
+<section>
+    <h1>{{ 'contact.TITLE' | translate}}</h1>
+    <article>
+        <div>
+            {{ 'contact.desc.1' | translate }} <br>
+            {{ 'contact.desc.2' | translate }} <br>
+            {{ 'contact.desc.3' | translate }} <br>
+            {{ 'contact.desc.4' | translate }}
+        </div>
+        <form [formGroup]="contactForm" (submit)="sendEmail($event)">
+            <input formControlName="name" type="text" name="name" placeholder="{{ 'contact.form.name' | translate }}" required>
+            <input formControlName="email" type="email" name="email" placeholder="{{ 'contact.form.email' | translate }}" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            <input formControlName="title" type="text" name="title" placeholder="{{ 'contact.form.subject' | translate }} " required minlength="3">
+            <textarea formControlName="message" name="message" placeholder="{{ 'contact.form.message' | translate }}" required></textarea>
+            @if (successMessage || errorMessage){
+                <div class="form-messages">
+                    @if (successMessage){
+                        {{ successMessage | translate}}
+                    }
+                    @else if (errorMessage) {
+                        {{ errorMessage | translate}}
+                    }
+                </div>
+            }
+            <button type="submit">{{ 'contact.form.button' | translate }}</button>
+        </form>
+    </article>
+    <article>
+        <a href="mailto:bonillacostaclaudia@gmail.com">bonillacostaclaudia&#64;gmail.com</a>
+        <a href="tel:+34686920070">(+34) 686920070</a>
+    </article>
+</section>

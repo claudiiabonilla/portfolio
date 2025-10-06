@@ -37,5 +37,21 @@
         "19": "Creación y personalización de sitios web autoadministrables basados en diseño propio.",
         "20": "Diseño de presentaciones visuales y material de apoyo para proyectos o clientes.",
         "21": "Redacción y formato de documentos, presupuestos o manuales de marca."
+    },
+    "contact": {
+        "TITLE": "Contacto",
+        "desc": {
+            "1": "¿Tienes un proyecto en mente o te gustaría colaborar en algo creativo?",
+            "2": "Me encanta trabajar en nuevas ideas que unan el diseño y la tecnología.",
+            "3": "Si crees que puedo ayudarte o simplemente quieres saludar,",
+            "4": "¡escríbeme!"
+        },
+        "form": {
+            "name": "Tu nombre",
+            "email": "Tu email",
+            "subject": "Asunto",
+            "message": "Tu mensaje",
+            "button": "Enviar"
+        }
     }
 }

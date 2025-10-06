@@ -37,7 +37,7 @@ button:hover{
 h1{
   padding-top: 3rem;
   font-family: Carlson;
-  font-size: 5rem;
+  font-size: 7rem;
   text-align: center;
   color: transparent;
 }
@@ -51,6 +51,11 @@ body {
 
   h1{
     -webkit-text-stroke: 0.05rem var(--color-blue);
+  }
+
+  input, textarea{
+    font-family: Montserrat;
+    color: var(--color-blue);
   }
 
   a{
@@ -73,6 +78,11 @@ body.dark-mode{
 
   a, button{
     color: var(--color-1);
+  }
+
+  input, textarea{
+    font-family: Montserrat;
+    color: var(--color-purple);
   }
 
   h1{

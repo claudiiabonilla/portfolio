@@ -37,5 +37,21 @@
         "19": "Creation and customization of self-managed websites based on custom designs.",
         "20": "Design of visual presentations and support materials for projects or clients.",
         "21": "Writing and formatting of documents, budgets, or brand manuals."
+    },
+    "contact": {
+        "TITLE": "Contact",
+        "desc": {
+            "1": "Do you have a project in mind or would you like to collaborate on something creative?",
+            "2": "I love working on new ideas that combine design and technology.",
+            "3": "If you think I can help you or just want to say hello,",
+            "4": "feel free to write to me!"
+        },
+        "form": {
+            "name": "Your Name",
+            "email": "Your Email",
+            "subject": "Subject",
+            "message": "Your Message",
+            "button": "Send"
+        }
     }
 }

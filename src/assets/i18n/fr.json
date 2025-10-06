@@ -37,5 +37,21 @@
     "19": "Création et personnalisation de sites web auto-administrables basés sur un design sur mesure.",
     "20": "Conception de présentations visuelles et de supports pour des projets ou des clients.",
     "21": "Rédaction et mise en forme de documents, devis ou manuels de marque."
+  },
+  "contact": {
+    "TITLE": "Contact",
+    "desc": {
+        "1": "Vous avez un projet en tête ou souhaitez collaborer sur quelque chose de créatif ?",
+        "2": "J’aime travailler sur de nouvelles idées qui allient design et technologie.",
+        "3": "Si vous pensez que je peux vous aider ou si vous voulez simplement dire bonjour,",
+        "4": "n’hésitez pas à m’écrire !"
+    },
+    "form": {
+        "name": "Votre nom",
+        "email": "Votre email",
+        "subject": "Sujet",
+        "message": "Votre message",
+        "button": "Envoyer"
+    }
   }
 }

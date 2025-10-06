@@ -1,0 +1,59 @@
+section{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0 15rem;
+
+    article{
+        width: 100%;
+        display: flex;
+        gap: 5rem;
+
+        div{
+            margin-top: 2rem;
+            margin-left: 2rem;
+        }
+
+        form{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+            padding: 2rem;
+
+            input, textarea{
+                background-color: transparent;
+                width: 100%;
+                outline: none;
+                border: none;
+                padding-bottom: 0.5rem;
+                border-bottom: 0.1rem solid var(--color-gray);
+            }
+
+            button{
+                padding: 1rem;
+            }
+
+            .form-messages{
+                font-size: 0.7rem;
+            }
+        }
+
+        &:last-child{
+            justify-content: space-between;
+
+            a{
+                text-decoration: none;
+                font-family: Dan;
+                font-size: 4rem;
+            }
+        }
+    }
+}
