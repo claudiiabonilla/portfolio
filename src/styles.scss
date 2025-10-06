@@ -34,6 +34,14 @@ button:hover{
   cursor: pointer;
 }
 
+h1{
+  padding-top: 3rem;
+  font-family: Carlson;
+  font-size: 5rem;
+  text-align: center;
+  color: transparent;
+}
+
 body {
   background-color: var(--color-1);
   color: var(--color-blue);
@@ -41,7 +49,11 @@ body {
   min-height: 100vh;
   font-family: Montserrat;
 
-  a, h1{
+  h1{
+    -webkit-text-stroke: 0.05rem var(--color-blue);
+  }
+
+  a{
     color: var(--color-blue);
   }
 
@@ -64,7 +76,7 @@ body.dark-mode{
   }
 
   h1{
-    color: var(--color-purple);
+    -webkit-text-stroke: 0.05rem var(--color-purple);
   }
 
   svg{

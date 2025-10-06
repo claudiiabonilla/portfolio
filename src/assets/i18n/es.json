@@ -13,5 +13,8 @@
             "PROJECTS": "Ver proyectos",
             "CV": "Descargar CV"
         }
+    },
+    "skills": {
+        "TITLE": "Habilidades y programas"
     }
 }
