@@ -13,5 +13,29 @@
       "PROJECTS": "Voir les Projets",
       "CV": "Télécharger le CV"
     }
+  },
+  "skills": {
+    "TITLE": "Competences et logiciels",
+    "1": "Mise en page de catalogues, magazines et supports éditoriaux avec une structure claire et professionnelle.",
+    "2": "Conception de logos, d’identités visuelles et de graphiques vectoriels adaptés à différents supports.",
+    "3": "Retouche photo, photomontage et création de visuels pour des campagnes numériques et les réseaux sociaux.",
+    "4": "Ajustement des couleurs et traitement des photos pour maintenir la cohérence visuelle des projets.",
+    "5": "Préparation et vérification de fichiers PDF prêts pour l’impression ou la distribution numérique.",
+    "6": "Illustration numérique et croquis créatifs pour des projets de branding ou de réseaux sociaux.",
+    "7": "Animation de graphiques, de textes et d’éléments visuels pour des vidéos et des motion graphics.",
+    "8": "Montage vidéo, synchronisation audio et narration visuelle.",
+    "9": "Étalonnage et finition professionnelle des projets vidéo.",
+    "10": "Conception d’interfaces, prototypage interactif et création de systèmes visuels cohérents.",
+    "11": "Modélisation 3D à intégrer dans des projets visuels ou web.",
+    "12": "Développement d’interfaces modulaires et évolutives avec une architecture front-end moderne.",
+    "13": "Mise en page web responsive et conversion de designs en code propre et sémantique.",
+    "14": "Mise en œuvre d’interactivité, d’animations et de comportements dynamiques sur les sites web.",
+    "15": "Programmation orientée objet et développement de composants logiques pour des projets web.",
+    "16": "Développement de fonctionnalités backend et intégration de bases de données.",
+    "17": "Conception et gestion de bases de données pour sites ou applications web.",
+    "18": "Contrôle de version et collaboration sur des projets de développement.",
+    "19": "Création et personnalisation de sites web auto-administrables basés sur un design sur mesure.",
+    "20": "Conception de présentations visuelles et de supports pour des projets ou des clients.",
+    "21": "Rédaction et mise en forme de documents, devis ou manuels de marque."
   }
 }

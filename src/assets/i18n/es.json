@@ -15,6 +15,27 @@
         }
     },
     "skills": {
-        "TITLE": "Habilidades y programas"
+        "TITLE": "Habilidades y programas",
+        "1": "Maqueto catálogos, revistas y materiales editoriales con estructuras visuales limpias y profesionales.",
+        "2": "Diseño logotipos, identidades visuales y gráficos vectoriales adaptados a distintos soportes.",
+        "3": "Retoque fotográfico, fotomontaje y creación de piezas gráficas para campañas digitales y redes.",
+        "4": "Ajuste de color y revelado fotográfico para mantener coherencia estética en proyectos visuales.",
+        "5": "Preparación y revisión de archivos PDF listos para impresión o distribución digital.",
+        "6": "Ilustración digital y bocetos creativos para proyectos de branding o redes sociales.",
+        "7": "Animo gráficos, textos y elementos visuales para videos y motion graphics.",
+        "8": "Edición de videos, sincronización con audio y montaje narrativo.",
+        "9": "Corrección de color y acabado visual profesional en proyectos de video.",
+        "10": "Diseño de interfaces, prototipado interactivo y creación de sistemas visuales consistentes.",
+        "11": "Modelado 3D para integrar en proyectos visuales o web.",
+        "12": "Desarrollo interfaces modulares y escalables con arquitectura front-end moderna.",
+        "13": "Maquetación web responsive y adaptación de diseños a código limpio y semántico.",
+        "14": "Implemento interactividad, animaciones y comportamiento dinámico en la web.",
+        "15": "Programación orientada a objetos y desarrollo de componentes lógicos para proyectos web.",
+        "16": "Desarrollo funcionalidad backend y conexión con bases de datos.",
+        "17": "Diseño y gestión de bases de datos para sitios o aplicaciones web.",
+        "18": "Control de versiones y colaboración en proyectos de desarrollo.",
+        "19": "Creación y personalización de sitios web autoadministrables basados en diseño propio.",
+        "20": "Diseño de presentaciones visuales y material de apoyo para proyectos o clientes.",
+        "21": "Redacción y formato de documentos, presupuestos o manuales de marca."
     }
 }

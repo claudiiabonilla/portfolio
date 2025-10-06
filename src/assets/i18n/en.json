@@ -13,5 +13,29 @@
             "PROJECTS": "View Projects",
             "CV": "Download CV"
         }
+    },
+    "skills": {
+        "TITLE": "Skills and Software",
+        "1": "Layout design for catalogs, magazines, and editorial materials with clean and professional structures.",
+        "2": "Design of logos, visual identities, and vector graphics adapted to different formats.",
+        "3": "Photo retouching, photomontage, and creation of graphic pieces for digital campaigns and social media.",
+        "4": "Color correction and photo editing to maintain visual consistency across projects.",
+        "5": "Preparation and review of PDF files ready for print or digital distribution.",
+        "6": "Digital illustration and creative sketches for branding or social media projects.",
+        "7": "Animation of graphics, text, and visual elements for videos and motion graphics.",
+        "8": "Video editing, audio synchronization, and narrative assembly.",
+        "9": "Color grading and professional finishing for video projects.",
+        "10": "Interface design, interactive prototyping, and creation of consistent visual systems.",
+        "11": "3D modeling to integrate into visual or web projects.",
+        "12": "Development of modular and scalable interfaces using modern front-end architecture.",
+        "13": "Responsive web layout and adaptation of designs into clean, semantic code.",
+        "14": "Implementation of interactivity, animations, and dynamic behavior on websites.",
+        "15": "Object-oriented programming and development of logical components for web projects.",
+        "16": "Backend functionality development and database integration.",
+        "17": "Design and management of databases for websites or web applications.",
+        "18": "Version control and collaboration on development projects.",
+        "19": "Creation and customization of self-managed websites based on custom designs.",
+        "20": "Design of visual presentations and support materials for projects or clients.",
+        "21": "Writing and formatting of documents, budgets, or brand manuals."
     }
 }
