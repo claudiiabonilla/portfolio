@@ -49,6 +49,10 @@ body {
   min-height: 100vh;
   font-family: Montserrat;
 
+  .about-me{
+    background: radial-gradient(var(--color-blue), var(--color-1) 65%);
+  }
+
   h1{
     -webkit-text-stroke: 0.05rem var(--color-blue);
   }
@@ -75,6 +79,10 @@ body {
 body.dark-mode{
   background-color: var(--color-blue);
   color: var(--color-purple);
+
+  .about-me{
+    background: radial-gradient(var(--color-1), var(--color-blue) 65%);
+  }
 
   a, button{
     color: var(--color-1);
