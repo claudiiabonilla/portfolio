@@ -1,1 +1,10 @@
-<p>portfolio works!</p>
+<section>
+    <div>
+        @for (category of categories; track category.name; let idx = $index) {
+            <button (click)="onSelect(category)" [class.active]="category === selectedCategory">
+                {{category.name}}
+            </button>
+        }
+    </div>
+    <app-flipbook #header [category]="selectedCategory"></app-flipbook>
+</section>

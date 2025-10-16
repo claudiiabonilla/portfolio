@@ -70,10 +70,11 @@ body {
     fill: var(--color-blue);
   }
 
-  .cv{
+  .cv, button.active{
     background-color: var(--color-blue);
     color: var(--color-purple);
   }
+
 }
 
 body.dark-mode{
@@ -101,7 +102,7 @@ body.dark-mode{
     fill: var(--color-1);
   }
 
-  .cv{
+  .cv, button.active {
     background-color: var(--color-1);
     color: var(--color-blue);
   }
