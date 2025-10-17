@@ -1,3 +1,4 @@
+@use 'utils' as utils;
 @import url(styles/color.scss);
 @font-face 
 {
@@ -105,5 +106,22 @@ body.dark-mode{
   .cv, button.active {
     background-color: var(--color-1);
     color: var(--color-blue);
+  }
+}
+
+/***********************************************************************************************************************************************/
+/* MEDIA QUERY */
+body{
+  @include utils.respond-to(utils.$desktop-large) {
+    font-size: 16px;
+  }
+  @include utils.respond-to(utils.$tablet) {
+    font-size: 15px;
+  }
+  @include utils.respond-to(utils.$tablet-small) {
+    font-size: 14px;
+  }
+  @include utils.respond-to(utils.$mobile) {
+    font-size: 13px;
   }
 }
