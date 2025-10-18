@@ -59,4 +59,40 @@
             z-index: 15;
         }
     }
+
+    @include utils.respond-to(utils.$tablet-small) {
+        padding: 0 3rem;
+        gap: 1rem;
+
+        button {
+            padding: 0.75rem;
+            font-size: 0.9rem;
+        }
+
+        .flipbook {
+            width: 12rem;
+            height: 14rem;
+            padding-left: calc(12rem / 2);
+
+            .cover, .back-cover, .page, img, video, canvas {
+                width: 12rem;
+                height: 14rem;
+            }
+        }
+    }
+
+    @include utils.respond-to(utils.$mobile) {
+        padding: 0 1rem;
+        
+        .flipbook {
+            width: 10rem;
+            height: 12rem;
+            padding-left: calc(10rem / 2);
+
+            .cover, .back-cover, .page, img, video, canvas {
+                width: 10rem;
+                height: 12rem;
+            }
+        }
+    }
 }

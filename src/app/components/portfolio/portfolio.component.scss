@@ -8,14 +8,23 @@ section{
     div{
         padding: 5rem 0;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         gap: 4rem;
+
+        @include utils.respond-to(utils.$tablet-small) {
+            gap: 2.5rem;
+        }
 
         button{
             width: 7rem;
             padding: 1rem;
             opacity: 0.8;
+
+            @include utils.respond-to(utils.$tablet-small) {
+                padding: 0.75rem;
+            }
 
             &:hover {
                 transform: scale(1.1);
