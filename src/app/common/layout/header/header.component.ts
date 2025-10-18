@@ -15,6 +15,16 @@ export class HeaderComponent {
   public themeService = inject(ThemeService);
   public langService = inject(LanguageService);
 
+  menuOpen = false;
+
+  toggleMenu() {
+    this.menuOpen = !this.menuOpen;
+  }
+
+  closeMenu() {
+    this.menuOpen = false;
+  }
+
   toggleTheme() {
     this.themeService.toggleDarkMode();
   }

@@ -16,6 +16,10 @@ header{
             height: auto;
         }
 
+        .menu-toggle {
+            display: none;
+        }
+
         div{
             display: flex;
             justify-content: center;
@@ -67,6 +71,50 @@ header{
 
             &:hover div{
                 display: block;
+            }
+        }
+
+        @include utils.respond-to(utils.$tablet) {
+            flex-direction: row;
+            justify-content: space-around;
+
+            a{
+                width: 15vw;
+            }
+
+            menu {
+                display: none;
+                flex-direction: column;
+                align-items: flex-start;
+                position: absolute;
+                top: 0;
+                left: 0;
+                padding: 7rem 4rem;
+                background-color: var(--color-blue);
+                width: 50vw;
+                height: 100vh;
+                z-index: 100;
+                transition: transform 0.3s ease-in-out;
+
+                li {
+                display: block;
+                padding: 0.5rem 0;
+                }
+
+                &.open {
+                    display: flex;
+                }
+            }
+
+            .menu-toggle {
+                display: flex;
+                box-shadow: none;
+                z-index: 101;
+
+                svg {
+                width: 2rem;
+                height: 2rem;
+                }
             }
         }
     }
