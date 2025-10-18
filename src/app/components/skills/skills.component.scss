@@ -1,9 +1,17 @@
 @use 'utils' as utils;
 article{
     display: grid;
-    padding: 7rem;
+    padding: 5rem;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+
+    @include utils.respond-to(utils.$tablet) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include utils.respond-to(utils.$tablet-small) {
+        grid-template-columns: 1fr;
+    }
 
     div{
         display: flex;
