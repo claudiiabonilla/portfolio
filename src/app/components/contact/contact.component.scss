@@ -9,6 +9,17 @@ section{
     flex-wrap: nowrap;
     padding: 0 15rem;
 
+    @include utils.respond-to(utils.$desktop) {
+        padding: 0 10rem;
+    }
+
+    @include utils.respond-to(utils.$tablet) {
+        padding: 0 7rem;
+    }
+    @include utils.respond-to(utils.$mobile) {
+        padding: 0 3rem;
+    }
+
     article{
         width: 100%;
         display: flex;
@@ -29,6 +40,10 @@ section{
             gap: 3rem;
             padding: 2rem;
 
+            @include utils.respond-to(utils.$tablet) {
+                width: 100%;
+            }
+
             input, textarea{
                 background-color: transparent;
                 width: 100%;
@@ -47,13 +62,31 @@ section{
             }
         }
 
+        &:first-of-type{
+            @include utils.respond-to(utils.$tablet) {
+                flex-direction: column;
+            }
+        }
+
         &:last-child{
             justify-content: space-between;
+            @include utils.respond-to(utils.$tablet) {
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+            }
 
             a{
                 text-decoration: none;
                 font-family: Dan;
                 font-size: 4rem;
+
+                @include utils.respond-to(utils.$desktop) {
+                    font-size: 3rem;
+                }
+                @include utils.respond-to(utils.$mobile) {
+                    font-size: 2rem;
+                }
             }
         }
     }
