@@ -94,7 +94,12 @@ export class IndexComponent implements AfterViewInit {
       const t = this.easeInOutQuad(this.animationProgress);
 
       // Desplazamiento lateral del modelo
-      const lateralShift = -1; // valor final en unidades Three.js, ajusta según tu escena
+      let lateralShift = window.innerWidth <= 576 ? -0.5 : -1;
+      window.addEventListener('resize', () => {
+        lateralShift = window.innerWidth <= 576 ? -0.5 : -1;
+      });
+
+      // dentro de tu animación o render loop:
       this.model.position.x = lateralShift * t;
 
       // --- Desplazamiento vertical ---
@@ -118,7 +123,6 @@ export class IndexComponent implements AfterViewInit {
         this.article1Ref.nativeElement.style.transform = `translateY(${articleShiftY}vh)`;
       }
       if (this.article2Ref) {
-        // opcional: el segundo puede aparecer con efecto parallax más suave
         const secondShift = 90 * (1 - t); 
         this.article2Ref.nativeElement.style.transform = `translateY(${secondShift}vh)`;
       }

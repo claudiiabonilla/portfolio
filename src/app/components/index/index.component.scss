@@ -2,7 +2,7 @@
 
 section{
     width: 100vw;
-    height: 90vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,6 +13,7 @@ section{
         position: absolute;
         display: flex;
         justify-content: center;
+        align-items: center;
         top: 0;
         left: 0;
         width: 100vw;
@@ -24,6 +25,7 @@ section{
         align-items: center;
         flex-direction: column;
         padding-left: 30rem;
+        padding-right: 5rem;
         z-index: 1;
 
         div{
@@ -39,16 +41,19 @@ section{
             font-family: Dan;
             text-transform: uppercase;
             font-size: 5rem;
+            text-align: center;
         }
 
         h3{
             text-transform: uppercase;
             font-size: 2.5rem;
+            text-align: center;
         }
 
         p{
             font-size: 1.2rem;
             padding: 1rem 0;
+            text-align: center;
         }
     }
 
@@ -78,5 +83,83 @@ section{
         padding: 1rem;
         font-size: 1.2rem;
         transition: all 0.3s ease;
+    }
+
+    @include utils.respond-to(utils.$tablet) {
+        h1 {
+        font-size: 16rem;
+        letter-spacing: -6rem;
+        }
+
+        article:nth-child(2) {
+        padding-left: 10rem;
+
+        h2 {
+            font-size: 3.5rem;
+        }
+
+        h3 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+        }
+
+        .animate-btn {
+        bottom: 3%;
+        font-size: 1rem;
+        padding: 0.8rem;
+        }
+    }
+
+    @include utils.respond-to(utils.$tablet-small) {
+        flex-direction: column;
+
+        h1 {
+        font-size: 10rem;
+        letter-spacing: -2rem;
+        padding-top: 2rem;
+        }
+
+        article:nth-child(2) {
+        padding-left: 5rem;
+
+        div {
+            flex-direction: column;
+            gap: 0.5rem;
+
+            button {
+            padding: 0.8rem;
+            font-size: 0.9rem;
+            }
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+        }
+
+        p {
+            font-size: 0.9rem;
+            padding: 0.5rem 1rem;
+        }
+        }
+
+        .canvas {
+        position: relative;
+        top: 0;
+        height: 50vh;
+        }
+
+        .animate-btn {
+        position: relative;
+        bottom: 0;
+        margin: 2rem auto;
+        }
     }
 }
