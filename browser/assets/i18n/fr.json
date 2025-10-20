@@ -1,0 +1,72 @@
+{
+  "menu": {
+    "ABOUT": "À propos de moi",
+    "SKILLS": "Compétences",
+    "PORTFOLIO": "Portfolio",
+    "CONTACT": "Contact"
+  },
+  "index": {
+    "NAME": "Bonjour ! Je suis Claudia Bonilla",
+    "OFICE": "Designer graphique et développeuse",
+    "PRESENTATION": "Je crée des expériences visuelles qui racontent des histoires. Curieuse, créative et sans peur des défis numériques.",
+    "BUTTONS": {
+      "PROJECTS": "Voir les Projets",
+      "CV": "Télécharger le CV"
+    }
+  },
+  "about": {
+    "PRESENTATION": {
+        "NAME": "Je suis Claudia Bonilla",
+        "DESC": {
+            "1": "Graphiste et développeuse web, combinant créativité et technologie pour donner vie à des projets visuels uniques.",
+            "2": "Passionnée par le dessin et la photographie, j’aime explorer de nouvelles formes d’expression visuelle qui créent un lien avec les gens.",
+            "3": "J’aime transformer des idées en designs fonctionnels et collaborer sur des projets qui inspirent et ont un impact."
+        }
+    },
+    "CARD": {
+        "1": "Claudia a démontré un professionnalisme et une collaboration exemplaires. Elle a travaillé en étroite collaboration avec ses collègues, posé des questions intelligentes et pertinentes, et a appris très rapidement.",
+        "2": "Claudia combine talent, souci du détail, créativité et rapidité d’apprentissage, ce qui fait d’elle une candidate exceptionnelle pour tout projet frontend axé sur le design et l’expérience utilisateur.",
+        "EMP": "Alten Spain"
+    }
+  },
+  "skills": {
+    "TITLE": "Competences et logiciels",
+    "1": "Mise en page de catalogues, magazines et supports éditoriaux avec une structure claire et professionnelle.",
+    "2": "Conception de logos, d’identités visuelles et de graphiques vectoriels adaptés à différents supports.",
+    "3": "Retouche photo, photomontage et création de visuels pour des campagnes numériques et les réseaux sociaux.",
+    "4": "Ajustement des couleurs et traitement des photos pour maintenir la cohérence visuelle des projets.",
+    "5": "Préparation et vérification de fichiers PDF prêts pour l’impression ou la distribution numérique.",
+    "6": "Illustration numérique et croquis créatifs pour des projets de branding ou de réseaux sociaux.",
+    "7": "Animation de graphiques, de textes et d’éléments visuels pour des vidéos et des motion graphics.",
+    "8": "Montage vidéo, synchronisation audio et narration visuelle.",
+    "9": "Étalonnage et finition professionnelle des projets vidéo.",
+    "10": "Conception d’interfaces, prototypage interactif et création de systèmes visuels cohérents.",
+    "11": "Modélisation 3D à intégrer dans des projets visuels ou web.",
+    "12": "Développement d’interfaces modulaires et évolutives avec une architecture front-end moderne.",
+    "13": "Mise en page web responsive et conversion de designs en code propre et sémantique.",
+    "14": "Mise en œuvre d’interactivité, d’animations et de comportements dynamiques sur les sites web.",
+    "15": "Programmation orientée objet et développement de composants logiques pour des projets web.",
+    "16": "Développement de fonctionnalités backend et intégration de bases de données.",
+    "17": "Conception et gestion de bases de données pour sites ou applications web.",
+    "18": "Contrôle de version et collaboration sur des projets de développement.",
+    "19": "Création et personnalisation de sites web auto-administrables basés sur un design sur mesure.",
+    "20": "Conception de présentations visuelles et de supports pour des projets ou des clients.",
+    "21": "Rédaction et mise en forme de documents, devis ou manuels de marque."
+  },
+  "contact": {
+    "TITLE": "Contact",
+    "desc": {
+        "1": "Vous avez un projet en tête ou souhaitez collaborer sur quelque chose de créatif ?",
+        "2": "J’aime travailler sur de nouvelles idées qui allient design et technologie.",
+        "3": "Si vous pensez que je peux vous aider ou si vous voulez simplement dire bonjour,",
+        "4": "n’hésitez pas à m’écrire !"
+    },
+    "form": {
+        "name": "Votre nom",
+        "email": "Votre email",
+        "subject": "Sujet",
+        "message": "Votre message",
+        "button": "Envoyer"
+    }
+  }
+}

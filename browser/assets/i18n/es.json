@@ -1,0 +1,72 @@
+{
+    "menu": {
+        "ABOUT": "Sobre mí",
+        "SKILLS": "Skills",
+        "PORTFOLIO": "Portfolio",
+        "CONTACT": "Contacto"
+    },
+    "index": {
+        "NAME": "¡Hola! Soy Claudia Bonilla",
+        "OFICE": "Diseñadora gráfica y developer",
+        "PRESENTATION": "Creo experiencias visuales que cuentan historias. Curiosa, creativa y sin miedo a los retos digitales.",
+        "BUTTONS": {
+            "PROJECTS": "Ver proyectos",
+            "CV": "Descargar CV"
+        }
+    },
+    "about": {
+        "PRESENTATION": {
+            "NAME": "Soy Claudia Bonilla",
+            "DESC": {
+                "1": "Diseñadora gráfica y desarrolladora web combinando creatividad y tecnología para dar vida a proyectos visuales únicos.",
+                "2": "Apasionada por el dibujo y la fotografía, me encanta explorar nuevas formas de expresión visual que conecten con las personas.",
+                "3": "Disfruto transformando ideas en diseños funcionales y colaborando en proyectos que inspiran y generan impacto."
+            }
+        },
+        "CARD": {
+            "1": "Claudia mostró una actitud profesional y colaborativa ejemplar. Trabajó codo a codo con sus compañeros, formuló preguntas inteligentes y pertinentes, y aprendió de manera muy rápida.",
+            "2": "Claudia combina talento, atención al detalle, creatividad y rapidez de aprendizaje, cualidades que la convierten en una candidata excepcional para cualquier proyecto frontend con enfoque en diseño y experiencia de usuario.",
+            "EMP": "Alten Spain"
+        }
+    },
+    "skills": {
+        "TITLE": "Habilidades y programas",
+        "1": "Maqueto catálogos, revistas y materiales editoriales con estructuras visuales limpias y profesionales.",
+        "2": "Diseño logotipos, identidades visuales y gráficos vectoriales adaptados a distintos soportes.",
+        "3": "Retoque fotográfico, fotomontaje y creación de piezas gráficas para campañas digitales y redes.",
+        "4": "Ajuste de color y revelado fotográfico para mantener coherencia estética en proyectos visuales.",
+        "5": "Preparación y revisión de archivos PDF listos para impresión o distribución digital.",
+        "6": "Ilustración digital y bocetos creativos para proyectos de branding o redes sociales.",
+        "7": "Animo gráficos, textos y elementos visuales para videos y motion graphics.",
+        "8": "Edición de videos, sincronización con audio y montaje narrativo.",
+        "9": "Corrección de color y acabado visual profesional en proyectos de video.",
+        "10": "Diseño de interfaces, prototipado interactivo y creación de sistemas visuales consistentes.",
+        "11": "Modelado 3D para integrar en proyectos visuales o web.",
+        "12": "Desarrollo interfaces modulares y escalables con arquitectura front-end moderna.",
+        "13": "Maquetación web responsive y adaptación de diseños a código limpio y semántico.",
+        "14": "Implemento interactividad, animaciones y comportamiento dinámico en la web.",
+        "15": "Programación orientada a objetos y desarrollo de componentes lógicos para proyectos web.",
+        "16": "Desarrollo funcionalidad backend y conexión con bases de datos.",
+        "17": "Diseño y gestión de bases de datos para sitios o aplicaciones web.",
+        "18": "Control de versiones y colaboración en proyectos de desarrollo.",
+        "19": "Creación y personalización de sitios web autoadministrables basados en diseño propio.",
+        "20": "Diseño de presentaciones visuales y material de apoyo para proyectos o clientes.",
+        "21": "Redacción y formato de documentos, presupuestos o manuales de marca."
+    },
+    "contact": {
+        "TITLE": "Contacto",
+        "desc": {
+            "1": "¿Tienes un proyecto en mente o te gustaría colaborar en algo creativo?",
+            "2": "Me encanta trabajar en nuevas ideas que unan el diseño y la tecnología.",
+            "3": "Si crees que puedo ayudarte o simplemente quieres saludar,",
+            "4": "¡escríbeme!"
+        },
+        "form": {
+            "name": "Tu nombre",
+            "email": "Tu email",
+            "subject": "Asunto",
+            "message": "Tu mensaje",
+            "button": "Enviar"
+        }
+    }
+}
