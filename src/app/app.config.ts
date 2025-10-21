@@ -15,11 +15,10 @@ export const appConfig: ApplicationConfig = {
       provideTranslateService({
       lang: DEFAULT_I18N_LANG,
       loader: provideTranslateHttpLoader({
-        prefix: 'assets/i18n/',
+        prefix: './assets/i18n/',
         suffix: '.json'
       })
     }),
-    provideTranslateHttpLoader(),
     // * IMPORTANT: When you need to use environment variables,
     // * provide them like this! And use them with `@Inject(ENV)`.
     // * See `app.component.ts` for an example.
