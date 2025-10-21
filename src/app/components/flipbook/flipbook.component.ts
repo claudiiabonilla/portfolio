@@ -83,7 +83,9 @@ export class FlipbookComponent implements AfterViewInit, OnChanges, OnDestroy {
         const scene = new THREE.Scene();
         const camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
         const renderer = new THREE.WebGLRenderer({ canvas, alpha: true });
-        renderer.setSize(260, 300);
+        renderer.setSize(canvas.clientWidth, canvas.clientHeight);
+        camera.aspect = canvas.clientWidth / canvas.clientHeight;
+        camera.updateProjectionMatrix();
         camera.position.z = 2;
 
         // Luz
