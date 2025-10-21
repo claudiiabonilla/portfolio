@@ -12,10 +12,10 @@
         </a>
         <div class="menu-container">
             <menu [class.open]="menuOpen">
-                <li><a routerLink="/about">{{ 'menu.ABOUT' | translate }}</a></li>
-                <li><a routerLink="/skills">{{ 'menu.SKILLS' | translate }}</a></li>
-                <li><a routerLink="/portfolio">{{ 'menu.PORTFOLIO' | translate }}</a></li>
-                <li><a routerLink="/contact">{{ 'menu.CONTACT' | translate }}</a></li>
+                <li><a (click)="closeMenu()" routerLink="/about">{{ 'menu.ABOUT' | translate }}</a></li>
+                <li><a (click)="closeMenu()" routerLink="/skills">{{ 'menu.SKILLS' | translate }}</a></li>
+                <li><a (click)="closeMenu()" routerLink="/portfolio">{{ 'menu.PORTFOLIO' | translate }}</a></li>
+                <li><a (click)="closeMenu()" routerLink="/contact">{{ 'menu.CONTACT' | translate }}</a></li>
             </menu>
             <button id="theme-switch" (click)="toggleTheme()">
                 @if (themeService.isDarkMode()) {

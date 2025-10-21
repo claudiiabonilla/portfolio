@@ -75,7 +75,14 @@ body {
     background-color: var(--color-blue);
     color: var(--color-purple);
   }
-
+  @include utils.respond-to(utils.$tablet) {
+    menu {
+      background-color: var(--color-1);
+      a{
+        color: var(--color-blue);
+      }
+    }
+  }
 }
 
 body.dark-mode{
@@ -106,6 +113,15 @@ body.dark-mode{
   .cv, button.active {
     background-color: var(--color-1);
     color: var(--color-blue);
+  }
+
+  @include utils.respond-to(utils.$tablet) {
+    menu {
+      background-color: var(--color-blue);
+      a{
+        color: var(--color-purple);
+      }
+    }
   }
 }
 
