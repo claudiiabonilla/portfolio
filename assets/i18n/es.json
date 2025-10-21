@@ -68,5 +68,108 @@
             "message": "Tu mensaje",
             "button": "Enviar"
         }
+    },
+    "PORTFOLIO": {
+        "CATEGORIES": {
+            "ILUSTRACION": "Ilustración",
+            "FOTOGRAFIA": "Fotografía",
+            "WEB": "Web",
+            "DISENO": "Diseño",
+            "3D": "3D"
+        },
+        "PROJECTS": {
+            "LEONARDO": {
+            "TITLE": "Retrato de Leonardo Da Vinci",
+            "DESCRIPTION": "Este proyecto surge del interés por reinterpretar figuras icónicas de la historia del arte. Realizado a mano con lápiz sanguina sobre papel, el retrato explora la técnica del claroscuro y la expresividad facial, buscando equilibrar el realismo clásico con una mirada personal y sensible."
+            },
+            "VITRUVIO": {
+            "TITLE": "El Hombre de Vitruvio",
+            "DESCRIPTION": "Inspirado en el estudio anatómico de Leonardo Da Vinci, este dibujo a sanguina es una exploración sobre las proporciones humanas y la armonía visual. El objetivo fue reinterpretar un símbolo universal del arte y la ciencia desde una perspectiva contemporánea, manteniendo el respeto por la precisión del original."
+            },
+            "VENUS": {
+            "TITLE": "El Nacimiento de Venus",
+            "DESCRIPTION": "Obra realizada a carboncillo con detalles en pan de oro sobre las gomas del cabello. Esta reinterpretación de la pintura de Botticelli busca capturar la delicadeza del movimiento y la luz con técnicas tradicionales. El uso del dorado aporta un contraste simbólico entre lo clásico y lo contemporáneo."
+            },
+            "PERRO1": {
+            "TITLE": "Retrato de perro lateral",
+            "DESCRIPTION": "Fotografía de un perro en posición lateral, donde se aprecian la cara y las patas delanteras. Busqué captar la nobleza y serenidad del animal, resaltando los detalles del pelaje y la expresión en un entorno natural."
+            },
+            "PERRO2": {
+            "TITLE": "Retrato de perro de frente",
+            "DESCRIPTION": "Retrato frontal de un perro sentado, con la mirada directa hacia la cámara. La imagen pretende transmitir confianza y conexión emocional entre el animal y el espectador a través de una composición sencilla y cercana."
+            },
+            "PERRO3": {
+            "TITLE": "Perro en vista picada",
+            "DESCRIPTION": "Fotografía tomada en picado que muestra una perspectiva distinta del perro. Este encuadre me permitió jugar con la forma, el ángulo y la luz para explorar una mirada más íntima y espontánea del sujeto."
+            },
+            "GATO1": {
+            "TITLE": "Retrato de gato con heterocromía",
+            "DESCRIPTION": "Primer plano de un gato de frente, con un ojo de cada color debido a una condición ocular. El retrato busca resaltar la singularidad del animal y la intensidad de su mirada, símbolo de belleza en la diferencia."
+            },
+            "GATO2": {
+            "TITLE": "Gato lateral en reposo",
+            "DESCRIPTION": "Fotografía de un gato en posición lateral donde se aprecian la cabeza y las patas delanteras. Quise reflejar su elegancia natural y su quietud atenta, trabajando la luz suave para mantener un tono íntimo y contemplativo."
+            },
+            "PAISAJE1": {
+            "TITLE": "Camino con valla de madera",
+            "DESCRIPTION": "Fotografía de un sendero rodeado de naturaleza, con una valla de troncos a la izquierda que guía la mirada hacia un fondo de árboles. La composición se centra en el equilibrio entre estructura y entorno, explorando la calma del paisaje rural."
+            },
+            "PAISAJE2": {
+            "TITLE": "Río entre eucaliptos",
+            "DESCRIPTION": "Paisaje enmarcado por eucaliptos donde un río refleja el entorno. La imagen busca transmitir serenidad y profundidad, explorando los matices de la luz natural y la armonía del color en la naturaleza."
+            },
+            "ESPALDA": {
+            "TITLE": "Figura humana en el paisaje",
+            "DESCRIPTION": "Fotografía en la que un joven de espaldas contempla el horizonte. Este trabajo simboliza introspección y conexión entre la figura humana y su entorno, un tema recurrente en mi exploración visual de la relación entre persona y naturaleza."
+            },
+            "REGRESOFUTURO": {
+            "TITLE": "Video digital “Regreso al Futuro”",
+            "DESCRIPTION": "Video del proceso de ilustración realizado en Procreate, donde se representa al joven de Regreso al Futuro sobre su patinete. Es un boceto sencillo centrado en la práctica del trazo y el color, más que en el acabado final. Este trabajo forma parte de mis ejercicios personales de observación y técnica digital."
+            },
+            "PULPFICTION": {
+            "TITLE": "Video digital “Chica de Pulp Fiction”",
+            "DESCRIPTION": "Video del proceso de dibujo en Procreate inspirado en la icónica escena de Pulp Fiction, donde la protagonista aparece fumando. Se trata de un boceto rápido orientado al estudio de la forma y la luz, buscando capturar la esencia del personaje sin un estilo definido."
+            },
+            "MAQUETACION": {
+            "TITLE": "Maquetación web estructurada",
+            "DESCRIPTION": "Proyecto técnico en el que desarrollé una página web siguiendo una estructura predefinida. Este trabajo me ayudó a reforzar mi atención al detalle y mi capacidad para adaptar diseño a requerimientos técnicos."
+            },
+            "TFG": {
+            "TITLE": "TFG - Plataforma para alumnos de Dietética",
+            "DESCRIPTION": "Diseño y desarrollo de una web para presentar trabajos finales de estudiantes de dietética. El proyecto nació del deseo de crear una herramienta clara, accesible y visualmente coherente para uso académico."
+            },
+            "ICARE": {
+            "TITLE": "Prototipo ICare (Figma)",
+            "DESCRIPTION": "Diseño de experiencia de usuario para el proyecto Icare. Mediante Figma, desarrollé un prototipo interactivo que simula flujos de navegación intuitivos. El propósito fue mejorar la accesibilidad y coherencia visual del producto digital."
+            },
+            "NITEN": {
+            "TITLE": "Niten - Museo Online",
+            "DESCRIPTION": "Identidad visual para un museo digital. Quise reflejar la unión entre arte y tecnología, creando un logo que simboliza la difusión cultural a través del entorno virtual."
+            },
+            "MOA": {
+            "TITLE": "MOA - Tienda de ropa",
+            "DESCRIPTION": "Proyecto de branding para una marca de moda contemporánea. El diseño transmite minimalismo y elegancia, buscando una identidad limpia y versátil."
+            },
+            "FLANER": {
+            "TITLE": "Flâner - Fragancias naturales",
+            "DESCRIPTION": "Diseño de identidad para una línea de perfumes de alta gama. El objetivo fue plasmar la esencia de la marca: elegancia, sutileza y un estilo atemporal."
+            },
+            "REPAVAR": {
+            "TITLE": "Repavar - Campaña de skincare",
+            "DESCRIPTION": "Propuesta de rediseño para una campaña de cosmética y cuidado de la piel. Busqué modernizar la identidad visual, reforzando la confianza y la pureza de la marca."
+            },
+            "LUNGTIME": {
+            "TITLE": "Lungtime - Avances en oncología de pulmón",
+            "DESCRIPTION": "Diseño de logo para una campaña de comunicación científica centrada en los avances en oncología de pulmón. La identidad busca transmitir innovación, optimismo y esperanza a través de un lenguaje visual dinámico y cercano, alejándose de la estética médica tradicional."
+            },
+            "PERSONAJE": {
+            "TITLE": "Personaje 3D estilo cartoon",
+            "DESCRIPTION": "Creación de un personaje propio modelado en 3D. Este trabajo me permitió desarrollar mi creatividad en el modelado orgánico y experimentar con texturas y expresividad cartoon."
+            },
+            "MUSEO": {
+            "TITLE": "Museo 3D “Félix el Loco”",
+            "DESCRIPTION": "Diseño y renderización de un museo virtual dedicado al personaje Félix el Loco. Quise combinar arte, narrativa y espacio tridimensional, generando una experiencia inmersiva que une lo real y lo imaginario."
+            }
+        }
     }
 }
