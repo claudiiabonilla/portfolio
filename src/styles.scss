@@ -123,5 +123,8 @@ body{
   }
   @include utils.respond-to(utils.$mobile) {
     font-size: 13px;
+      h1{
+        font-size: 4rem;
+      }
   }
 }
