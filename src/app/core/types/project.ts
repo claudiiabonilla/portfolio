@@ -1,4 +1,5 @@
 export interface Project {
+    key: string;
     title: string;
     img?: string;
     video?: string;
@@ -8,6 +9,7 @@ export interface Project {
 }
 
 export interface Category {
+    key: string;
     name: string;
     projects: Project[];
 }

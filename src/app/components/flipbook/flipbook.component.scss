@@ -110,3 +110,19 @@
         }
     }
 }
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 7rem;
+    gap: 1rem;
+
+    h3{
+        font-size: 3.5rem;
+        text-align: center;
+        font-family: Dan;
+        letter-spacing: 0.2rem;
+    }
+}

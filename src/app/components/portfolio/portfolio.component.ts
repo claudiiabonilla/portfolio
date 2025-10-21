@@ -1,11 +1,12 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { PortfolioService } from '@app/core/services/portfolio.service';
 import { Category } from '@app/core/types/project';
+import { TranslateModule } from '@ngx-translate/core';
 import { FlipbookComponent } from '../flipbook/flipbook.component';
 
 @Component({
   selector: 'app-portfolio',
-  imports: [FlipbookComponent],
+  imports: [FlipbookComponent, TranslateModule],
   templateUrl: './portfolio.component.html',
   styleUrl: './portfolio.component.scss'
 })

@@ -1,5 +1,6 @@
 import { AfterViewInit, Component, ElementRef, Input, OnChanges, OnDestroy, QueryList, SimpleChanges, ViewChild, ViewChildren } from '@angular/core';
 import { Category } from '@app/core/types/project';
+import { TranslateModule } from '@ngx-translate/core';
 import gsap from 'gsap';
 import { Subject } from 'rxjs';
 import * as THREE from 'three';
@@ -7,7 +8,7 @@ import { GLTF, GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 
 @Component({
   selector: 'app-flipbook',
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './flipbook.component.html',
   styleUrl: './flipbook.component.scss'
 })

@@ -68,5 +68,108 @@
             "message": "Your Message",
             "button": "Send"
         }
+    },
+    "PORTFOLIO": {
+        "CATEGORIES": {
+        "ILUSTRACION": "Illustration",
+        "FOTOGRAFIA": "Photography",
+        "WEB": "Web",
+        "DISENO": "Design",
+        "3D": "3D"
+        },
+        "PROJECTS": {
+        "LEONARDO": {
+            "TITLE": "Portrait of Leonardo Da Vinci",
+            "DESCRIPTION": "This project stems from an interest in reinterpreting iconic figures from art history. Hand-drawn with sanguine pencil on paper, the portrait explores chiaroscuro and facial expressiveness, balancing classical realism with a personal, sensitive perspective."
+        },
+        "VITRUVIO": {
+            "TITLE": "The Vitruvian Man",
+            "DESCRIPTION": "Inspired by Leonardo Da Vinci's anatomical studies, this sanguine drawing explores human proportions and visual harmony. The aim was to reinterpret a universal symbol of art and science from a contemporary perspective while respecting the original precision."
+        },
+        "VENUS": {
+            "TITLE": "The Birth of Venus",
+            "DESCRIPTION": "Created in charcoal with gold leaf details on the hair, this reinterpretation of Botticelli’s painting seeks to capture the delicacy of movement and light using traditional techniques. The use of gold adds a symbolic contrast between classical and contemporary elements."
+        },
+        "PERRO1": {
+            "TITLE": "Lateral Portrait of a Dog",
+            "DESCRIPTION": "Photo of a dog in a lateral position, showing the face and front paws. I aimed to capture the animal's nobility and serenity, highlighting the fur details and expression in a natural setting."
+        },
+        "PERRO2": {
+            "TITLE": "Front-Facing Portrait of a Dog",
+            "DESCRIPTION": "Frontal portrait of a seated dog, looking directly at the camera. The image conveys trust and emotional connection between the animal and the viewer through a simple and close composition."
+        },
+        "PERRO3": {
+            "TITLE": "Top-Down View of a Dog",
+            "DESCRIPTION": "Photo taken from above showing a different perspective of the dog. This angle allowed me to play with shape, light, and form to explore a more intimate and spontaneous view of the subject."
+        },
+        "GATO1": {
+            "TITLE": "Portrait of a Cat with Heterochromia",
+            "DESCRIPTION": "Close-up of a cat facing forward, with one eye of each color due to an ocular condition. The portrait emphasizes the animal's uniqueness and the intensity of its gaze, symbolizing beauty in difference."
+        },
+        "GATO2": {
+            "TITLE": "Lateral Portrait of a Cat",
+            "DESCRIPTION": "Photo of a cat in a lateral position, showing the head and front paws. I wanted to reflect its natural elegance and attentive calm, working with soft lighting to maintain an intimate and contemplative tone."
+        },
+        "PAISAJE1": {
+            "TITLE": "Path with Wooden Fence",
+            "DESCRIPTION": "Photo of a trail surrounded by nature, with a wooden fence on the left guiding the eye towards trees in the background. The composition focuses on balance between structure and environment, exploring the tranquility of the rural landscape."
+        },
+        "PAISAJE2": {
+            "TITLE": "River Among Eucalyptus Trees",
+            "DESCRIPTION": "Landscape framed by eucalyptus trees with a river reflecting the surroundings. The image aims to convey serenity and depth, exploring natural light nuances and color harmony in nature."
+        },
+        "ESPALDA": {
+            "TITLE": "Human Figure in the Landscape",
+            "DESCRIPTION": "Photo of a young person from behind, contemplating the horizon. This work symbolizes introspection and the connection between the human figure and its environment, a recurring theme in my visual exploration of human-nature relationships."
+        },
+        "REGRESOFUTURO": {
+            "TITLE": "Digital Video 'Back to the Future'",
+            "DESCRIPTION": "Illustration process video created in Procreate, showing the young Back to the Future character on his skateboard. It is a simple sketch focused on practicing strokes and color rather than the final finish, part of my personal observation and digital technique exercises."
+        },
+        "PULPFICTION": {
+            "TITLE": "Digital Video 'Pulp Fiction Girl'",
+            "DESCRIPTION": "Drawing process video in Procreate inspired by the iconic scene from Pulp Fiction, where the protagonist is smoking. It is a quick sketch aimed at studying shape and light, capturing the essence of the character without a defined style."
+        },
+        "MAQUETACION": {
+            "TITLE": "Structured Web Layout",
+            "DESCRIPTION": "Technical project where I developed a web page following a predefined structure. This work helped reinforce attention to detail and the ability to adapt design to technical requirements."
+        },
+        "TFG": {
+            "TITLE": "Final Project - Dietetics Platform",
+            "DESCRIPTION": "Design and development of a website to present final student projects in dietetics. The project aimed to create a clear, accessible, and visually coherent tool for academic use."
+        },
+        "ICARE": {
+            "TITLE": "ICare Prototype (Figma)",
+            "DESCRIPTION": "User experience design for the ICare project. Using Figma, I developed an interactive prototype simulating intuitive navigation flows, aimed at improving accessibility and visual coherence of the digital product."
+        },
+        "NITEN": {
+            "TITLE": "Niten - Online Museum",
+            "DESCRIPTION": "Visual identity for a digital museum. I wanted to reflect the union of art and technology, creating a logo symbolizing cultural dissemination through a virtual environment."
+        },
+        "MOA": {
+            "TITLE": "MOA - Clothing Store",
+            "DESCRIPTION": "Branding project for a contemporary fashion brand. The design conveys minimalism and elegance, aiming for a clean and versatile identity."
+        },
+        "FLANER": {
+            "TITLE": "Flâner - Natural Fragrances",
+            "DESCRIPTION": "Identity design for a high-end perfume line. The goal was to capture the essence of the brand: elegance, subtlety, and timeless style."
+        },
+        "REPAVAR": {
+            "TITLE": "Repavar - Skincare Campaign",
+            "DESCRIPTION": "Redesign proposal for a skincare campaign. I aimed to modernize the visual identity, reinforcing the brand's trust and purity."
+        },
+        "LUNGTIME": {
+            "TITLE": "Lungtime - Advances in Lung Oncology",
+            "DESCRIPTION": "Logo design for a scientific communication campaign focused on advances in lung oncology. The identity seeks to convey innovation, optimism, and hope through a dynamic and approachable visual language, moving away from traditional medical aesthetics."
+        },
+        "PERSONAJE": {
+            "TITLE": "3D Character in Cartoon Style",
+            "DESCRIPTION": "Creation of an original 3D character. This work allowed me to develop creativity in organic modeling and experiment with textures and cartoon expressiveness."
+        },
+        "MUSEO": {
+            "TITLE": "3D Museum 'Félix the Crazy'",
+            "DESCRIPTION": "Design and rendering of a virtual museum dedicated to the character Félix the Crazy. I combined art, narrative, and three-dimensional space, creating an immersive experience that bridges the real and imaginary."
+        }
+        }
     }
 }

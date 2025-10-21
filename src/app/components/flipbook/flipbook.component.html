@@ -1,5 +1,5 @@
 @if (category) {
-    <h1>{{category.name}}</h1>
+    <h1>{{category.name | translate }}</h1>
     <div class="controls">
         <button (click)="prevPage()">&#8592;</button>
         <div class="flipbook" #bookContainer>
@@ -9,35 +9,36 @@
                 [class.active]="i === currentPage"
                 [style.zIndex]="category.projects.length - i"
                 #pages>
-                <div class="front">
-                    <!-- Imagen -->
-                    @if (project.type === 'image') {
-                        <img [src]="project.img" [alt]="project.title" />
-                    }
-                    <!-- Video -->
-                    @if (project.type === 'video') {
-                        <video
-                            [src]="project.video"
-                            controls
-                            autoplay
-                            muted
-                            loop
-                            playsinline
-                        ></video>
-                    }
-                    <!-- Canvas 3D -->
-                    @if (project.type === '3d') {
-                        <canvas #canvas3d [id]="'canvas-' + i"></canvas>
-                    }
+                    <div class="front">
+                        <!-- Imagen -->
+                        @if (project.type === 'image') {
+                            <img [src]="project.img" [alt]="project.title" />
+                        }
+                        <!-- Video -->
+                        @if (project.type === 'video') {
+                            <video
+                                [src]="project.video"
+                                controls
+                                autoplay
+                                muted
+                                loop
+                                playsinline
+                            ></video>
+                        }
+                        <!-- Canvas 3D -->
+                        @if (project.type === '3d') {
+                            <canvas #canvas3d [id]="'canvas-' + i"></canvas>
+                        }
+                    </div>
+                    <div class="back"><div class="blank"></div></div>
                 </div>
-                <div class="back"><div class="blank"></div></div>
-                <div class="info">
-                    <!--<h3>{{ project.title }}</h3>-->
-                </div>
-            </div>
             }
             <div class="back-cover"></div>
         </div>
         <button (click)="nextPage()">&#8594;</button>
+    </div>
+    <div class="info">
+        <h3>{{ category.projects[currentPage].title | translate }}</h3>
+        <p>{{ category.projects[currentPage].desc | translate }}</p>
     </div>
 }
