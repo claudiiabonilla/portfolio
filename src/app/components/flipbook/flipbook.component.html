@@ -9,26 +9,28 @@
                 [class.active]="i === currentPage"
                 [style.zIndex]="category.projects.length - i"
                 #pages>
-                <!-- Imagen -->
-                @if (project.type === 'image') {
-                    <img [src]="project.img" [alt]="project.title" />
-                }
-                <!-- Video -->
-                @if (project.type === 'video') {
-                    <video
-                        [src]="project.video"
-                        controls
-                        autoplay
-                        muted
-                        loop
-                        playsinline
-                    ></video>
-                }
-
-                <!-- Canvas 3D -->
-                @if (project.type === '3d') {
-                    <canvas #canvas3d [id]="'canvas-' + i"></canvas>
-                }
+                <div class="front">
+                    <!-- Imagen -->
+                    @if (project.type === 'image') {
+                        <img [src]="project.img" [alt]="project.title" />
+                    }
+                    <!-- Video -->
+                    @if (project.type === 'video') {
+                        <video
+                            [src]="project.video"
+                            controls
+                            autoplay
+                            muted
+                            loop
+                            playsinline
+                        ></video>
+                    }
+                    <!-- Canvas 3D -->
+                    @if (project.type === '3d') {
+                        <canvas #canvas3d [id]="'canvas-' + i"></canvas>
+                    }
+                </div>
+                <div class="back"><div class="blank"></div></div>
                 <div class="info">
                     <!--<h3>{{ project.title }}</h3>-->
                 </div>
