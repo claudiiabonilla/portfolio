@@ -15,6 +15,11 @@
   font-family: 'Montserrat';
   src: url(assets/fonts/MONTSERRAT-BOLD.TTF) format('truetype');
 }
+@font-face 
+{
+  font-family: 'Playfair';
+  src: url(assets/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf) format('truetype');
+}
 
 * {
   padding: 0;
@@ -37,7 +42,8 @@ button:hover{
 
 h1{
   padding-top: 3rem;
-  font-family: Carlson;
+  font-family: Carlson, Playfair;
+  font-weight: 500;
   font-size: 7rem;
   text-align: center;
   color: transparent;
