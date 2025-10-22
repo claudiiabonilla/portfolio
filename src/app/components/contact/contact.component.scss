@@ -70,6 +70,7 @@ section{
 
         &:last-child{
             justify-content: space-between;
+            gap: 2rem;
             @include utils.respond-to(utils.$tablet) {
                 flex-direction: column;
                 justify-content: center;
@@ -80,6 +81,8 @@ section{
                 text-decoration: none;
                 font-family: Dan;
                 font-size: 4rem;
+                word-break: break-all;
+                white-space: normal;
 
                 @include utils.respond-to(utils.$desktop) {
                     font-size: 3rem;
