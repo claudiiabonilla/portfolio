@@ -32,10 +32,15 @@ section{
             display: flex;
             gap: 1rem;
 
+            &.desc{
+                flex-direction: column;
+            }
+
             button{
                 padding: 1rem;
             }
         }
+
 
         h2{
             font-family: Dan;
@@ -83,6 +88,16 @@ section{
         padding: 1rem;
         font-size: 1.2rem;
         transition: all 0.3s ease;
+        animation: bounce 1.5s infinite;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    @keyframes bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-0.3rem); }
     }
 
     @include utils.respond-to(utils.$tablet) {
@@ -92,34 +107,25 @@ section{
         }
 
         article:nth-child(2) {
-        padding-left: 10rem;
+            padding-left: 10rem;
 
-        h2 {
-            font-size: 3.5rem;
-        }
+            h2 {
+                font-size: 3.5rem;
+            }
 
-        h3 {
-            font-size: 2rem;
-        }
+            h3 {
+                font-size: 2rem;
+            }
 
-        p {
-            font-size: 1rem;
-        }
+            p {
+                font-size: 1rem;
+            }
         }
 
         .animate-btn {
             bottom: 3%;
             font-size: 1rem;
             padding: 0.8rem;
-            animation: bounce 1.5s infinite;
-        }
-        @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-0.3rem); }
-        }
-
-        .animate-btn:hover {
-        transform: scale(1.1);
         }
     }
 
@@ -127,9 +133,9 @@ section{
         flex-direction: column;
 
         h1 {
-        font-size: 10rem;
-        letter-spacing: -2rem;
-        padding-top: 2rem;
+            font-size: 10rem;
+            letter-spacing: -2rem;
+            padding-top: 2rem;
         }
 
         article:nth-child(2) {
@@ -168,15 +174,15 @@ section{
         }
 
         .canvas {
-        position: relative;
-        top: 0;
-        height: 50vh;
+            position: relative;
+            top: 0;
+            height: 50vh;
         }
 
         .animate-btn {
-        position: relative;
-        bottom: 0;
-        margin: 2rem auto;
+            position: relative;
+            bottom: 0;
+            margin: 2rem auto;
         }
     }
 }
